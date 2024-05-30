@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.TelaDeLogin {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    position: absolute;
+    width: 287px;
+    height: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 815px;
+    background: rgba(84, 220, 239, 0.58);
+    border-radius: 47px;
+}
+
+.forgot-password {
+    position: absolute;
+    width: 188px;
+    height: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 664px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.no-account {
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 718px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.sign-up {
+    color: #1400FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.app-icon {
+    position: absolute;
+    width: 241px;
+    height: 182px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 67px;
+    background: url('assets/show\ de\ bola.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+.google-icon {
+    width: 45px;
+    height: 45px;
+    background: url('google-icon-2048x2048-czn3g8x8.png') no-repeat center center;
+    background-size: contain;
+}
+
+.facebook-icon {
+    width: 76px;
+    height: 52px;
+    background: url('vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930476.png') no-repeat center center;
+    background-size: contain;
+}
+
+.image-icon {
+    width: 46px;
+    height: 46px;
+    background: url('image.png') no-repeat center center;
+    background-size: contain;
+}
+
+.continue-with {
+    position: absolute;
+    width: 173px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 785px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-buttons {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    top: 833px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 198px;
+    height: 57px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 61.48%;
+    background: #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.state-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.label-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.email-field {
+    position: absolute;
+    width: 378px;
+    height: 66px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 398px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.email-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-family: 'Abhaya Libre Medium', serif;
+    font-size: 25px;
+    color: rgba(3, 3, 3, 0.7);
+}
+
+.password-field {
+    position: absolute;
+    width: 378px;
+    height: 66px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 476px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.password-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: #555555;
+}
+
+.welcome {
+    position: absolute;
+    width: 253px;
+    height: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 274px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #0743A2;
+}
