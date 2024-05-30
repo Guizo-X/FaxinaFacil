@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="TelaDeLogin">
+    <main class="TelaDeLogin">
         <div class="app-icon"></div>
-        <div class="welcome">Bem-vindo(a)</div>
-        <div class="email-field">
-            <input type="text" class="email-input" placeholder="Digite seu email/telefone">
-        </div>
-        <div class="password-field">
-            <input type="password" class="password-input" placeholder="Digite sua senha">
-        </div>
-        <div class="forgot-password">Esqueceu sua senha?</div>
-        <div class="no-account">Não tem uma conta? <span class="sign-up">Cadastre-se</span></div>
-        <div class="continue-with">Ou continue com</div>
-        <div class="social-buttons">
-            <div class="google-icon"></div>
-            <div class="facebook-icon"></div>
-            <div class="image-icon"></div>
-        </div>
-        <div class="button">
-            <div class="state-layer">
-                <div class="label-text">Entrar</div>
+        <h1 class="welcome">Bem-vindo(a)</h1>
+        <form action="#" method="POST">
+            <div class="email-field">
+                <input type="text" id="email-input" class="email-input" placeholder="Digite seu email/telefone">
             </div>
-        </div>
-    </div>
+            <div class="password-field">
+                <input type="password" id="password-input" class="password-input" placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="button">
+                <span class="state-layer">
+                    <span class="label-text">Entrar</span>
+                </span>
+            </button>
+            <div class="forgot-password">
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <div class="no-account">
+                Não tem uma conta? <a href="#" class="sign-up">Cadastre-se</a>
+            </div>
+            <div class="continue-with">Ou continue com</div>
+            <div class="social-buttons">
+                <button type="button" class="google-icon"></button>
+                <button type="button" class="facebook-icon"></button>
+                <button type="button" class="image-icon"></button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
