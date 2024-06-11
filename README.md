@@ -2,7 +2,10 @@
 
 <h1 align="center"> Faxina Facil </h1>
 
-![faxina facil](https://github.com/Guizo-X/FaxinaFacil/blob/master/assets/Faxina-logo.png)
+<div style="text-align:center;">
+    <img src="https://github.com/Guizo-X/FaxinaFacil/blob/master/assets/Faxina-logo.png" alt="Faxina Facil">
+</div>
+
 
 
 <p align="center">
