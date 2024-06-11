@@ -4,7 +4,7 @@
 
 ### Passo 1
 
-Clone este repositório:  git clone https://github.com/seu-usuario/fashine.git
+Clone este repositório:  https://github.com/Guizo-X/FaxinaFacil.git
 
 
 ### Passo 2
