@@ -3,38 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tela de Cadastro</title>
+    <link href="cadastro.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif;
+            background: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative;
+            width: 430px;
+            height: 932px;
+            background: #FFFFFF;
+        }
+
+        .header-title {
+            position: absolute;
+            width: 364px;
+            height: 91px;
+            left: calc(50% - 182px);
+            top: 85px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 41px;
+            text-align: center;
+            color: #0743A2;
+        }
+
+        .sub-header {
+            position: absolute;
+            width: 358px;
+            height: 76px;
+            left: 36px;
+            top: 224px;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 29px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .group-objects {
+            position: absolute;
+            width: 378px;
+            height: 496px;
+            left: 26px;
+            top: 358px;
+        }
+
+        .option-container {
+            position: relative;
+            width: 362px;
+            height: 66px;
+            background: #FFFFFF;
+            border: 2px solid #0743A2;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 12px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+        }
+
+        .icon {
+            width: 45px;
+            height: 50px;
+            margin-right: 12px;
+        }
+
+        .text {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        .voltar-container {
+            position: absolute;
+            width: 235px;
+            height: 55px;
+            left: calc(50% - 117.5px);
+            top: 799px;
+            background: #0743A2;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .voltar-text {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    </style>
 </head>
 <body>
-    <main class="TelaDeLogin">
-        <div class="app-icon"></div>
-        <h1 class="welcome">Bem-vindo(a)</h1>
-        <form action="#" method="POST">
-            <div class="email-field">
-                <input type="text" id="email-input" class="email-input" placeholder="Digite seu email/telefone">
+    <div class="container">
+        <div class="header-title">Crie uma conta no Faxina Facil</div>
+        <div class="sub-header">Existem diversas formas de você criar sua conta. Escolha uma dessas opções.</div>
+        <div class="group-objects">
+            <div class="option-container">
+                <img class="icon" src="/FaxinaFacil/assets/google-icon.png" alt="Google Icon">
+                <div class="text">Continuar com Google</div>
             </div>
-            <div class="password-field">
-                <input type="password" id="password-input" class="password-input" placeholder="Digite sua senha">
+            <div class="option-container">
+                <img class="icon" src="/FaxinaFacil/assets/facebook-icon.png" alt="Facebook Icon">
+                <div class="text">Continuar com Facebook</div>
             </div>
-            <button type="submit" class="button">
-                <span class="state-layer">
-                    <span class="label-text">Entrar</span>
-                </span>
-            </button>
-            <div class="forgot-password">
-                <a href="#">Esqueceu sua senha?</a>
+            <div class="option-container">
+                <img class="icon" src="/FaxinaFacil/assets/Captura de tela 2024-06-04 165350.png" alt="Apple Icon">
+                <div class="text">Continue com Apple</div>
             </div>
-            <div class="no-account">
-                Não tem uma conta? <a href="#" class="sign-up">Cadastre-se</a>
+            <div class="option-container">
+                <img class="icon" src="/FaxinaFacil/assets/email-icon.png" alt="Email Icon">
+                <div class="text">Continuar com email</div>
             </div>
-            <div class="continue-with">Ou continue com</div>
-            <div class="social-buttons">
-                <button type="button" class="google-icon"></button>
-                <button type="button" class="facebook-icon"></button>
-                <button type="button" class="image-icon"></button>
-            </div>
-        </form>
-    </main>
+        </div>
+        <div class="voltar-container">
+            <div class="voltar-text"><a href="/FaxinaFacil/Telainicial.html">Voltar</a></div>
+        </div>
+    </div>
 </body>
 </html>
