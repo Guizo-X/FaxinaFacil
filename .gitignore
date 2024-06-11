@@ -1,5 +1,5 @@
 # Dependências do Node
-/node_modules
+/fashine/node_modules
 
 # Diretórios de log
 /logs
