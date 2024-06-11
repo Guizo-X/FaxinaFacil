@@ -11,23 +11,23 @@ Clone este repositório:  https://github.com/Guizo-X/FaxinaFacil.git
 
 Instale as dependências com npm install:
 
-##bcrypt@5.1.1
+## bcrypt@5.1.1
 
 bcrypt: É uma biblioteca para hashing de senhas, usado para armazenar senhas de forma segura em bancos de dados
 
-##dotenv@16.4.5
+## dotenv@16.4.5
 
 dotenv: Facilita o carregamento de variáveis de ambiente de arquivos .env em projetos Node.js, útil para configurar diferentes ambientes de desenvolvimento.
 
-##express@4.19.2
+## express@4.19.2
 
 express: Um popular framework web para Node.js que simplifica o desenvolvimento de aplicativos da web, fornecendo uma camada de abstração sobre o servidor HTTP do Node.js.
 
-##mysql2@3.10.0
+## mysql2@3.10.0
 
 mysql2: Um cliente MySQL para Node.js que oferece uma interface assíncrona para interagir com bancos de dados MySQL, suportando consultas parametrizadas, transações e streaming de resultados.
 
-##sequelize@6.37.3
+## sequelize@6.37.3
 
 sequelize: Um ORM (Object-Relational Mapping) para Node.js que simplifica a interação com bancos de dados relacionais, fornecendo uma maneira de definir modelos de dados, consultas de banco de dados e relacionamentos usando JavaScript.
 
