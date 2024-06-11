@@ -1,4 +1,25 @@
-# Projeto Fashine
+# Título e Imagem de capa
+
+<h1 align="center"> Faxina Facil </h1>
+
+![faxina facil](https://github.com/Guizo-X/FaxinaFacil/blob/master/assets/Faxina-logo.png)
+
+
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
+
+
+
+
+# Índice 
+
+* [Título e Imagem de capa](#título-e-imagem-de-capa)
+* [Instalação](#instalação)
+* [Configuração do Banco de Dados](#configuração-do-Banco-de-Dados)
+* [Funcionalidades](#funcionalidades)
+* [Como Usar](#como-usar)
+* [Contribuição](#contribuição)
 
 ## Instalação
 
