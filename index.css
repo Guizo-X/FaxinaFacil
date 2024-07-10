@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    background-size: 2000px 1000px;
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.TelaDeLogin {
+    width: 430px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
+}
+
+.app-icon {
+    width: 241px;
+    height: 182px;
+    margin: 20px auto;
+    background: url('../assets/Ffx2.png') no-repeat center center;
+    background-size: contain;
+    animation: mover 1s forwards;
+}
+
+
+@keyframes mover {
+    0%{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.welcome {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    color: #0743A2;
+    margin: 20px 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-field, .password-field {
+    width: 100%;
+    height: 66px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-input, .password-input {
+    width: calc(100% - 17px);
+    height: calc(100% - 4px);
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #555555;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.forgot-password {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.no-account {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.sign-up {
+    color: #1400FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.continue-with {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0743A2;
+    margin: 30px 0 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+ .facebook-icon{
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.image-icon{
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.google-icon{
+    width: 65px;
+    height: 65px;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.google-icon {
+    background: url('assets/google-icon.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.facebook-icon {
+    background: url('assets/facebook-icon.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image-icon {
+    background: url('assets/email-icon.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 57px;
+    background: #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.state-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.label-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.facebook-icon:hover{
+    transform: scale(1.5);
+}
+
+.image-icon:hover{
+    transform: scale(1.5);
+}
+
+.google-icon:hover{
+    transform: scale(1.5);
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    margin : 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin : 0;
+}
+p{
+    color: white;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

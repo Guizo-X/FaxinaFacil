@@ -1,0 +1,279 @@
+.container {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    background: #FFFFFF;
+}
+
+.header-title {
+    position: absolute;
+    width: 364px;
+    height: 91px;
+    left: calc(50% - 182px); 
+    top: 85px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #0743A2;
+}
+
+.sub-header {
+    position: absolute;
+    width: 358px;
+    height: 76px;
+    left: 36px;
+    top: 224px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.group-objects {
+    position: absolute;
+    width: 378px;
+    height: 496px;
+    left: 20px;
+    top: 358px;
+}
+
+.email-container {
+    position: absolute;
+    width: 362px;
+    height: 66px;
+    left: 36px;
+    top: 689px;
+}
+
+.email-box {
+    position: absolute;
+    width: 362px;
+    height: 66px;
+    left: 36px;
+    top: 689px;
+    background: #FFFFFF;
+    border: 2px solid #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.email-text {
+    position: absolute;
+    width: 254px;
+    height: 28px;
+    left: 88px;
+    top: 707px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.email-icon {
+    position: absolute;
+    width: 45.36px;
+    height: 50px;
+    left: 49.13px;
+    top: 697px;
+    background: #FFFFFF;
+}
+
+.vector {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #000000;
+}
+
+.apple-container {
+    position: absolute;
+    width: 362px;
+    height: 67px;
+    left: 33px;
+    top: 578px;
+}
+
+.apple-box {
+    position: absolute;
+    width: 362px;
+    height: 66px;
+    left: 33px;
+    top: 578px;
+    background: #FFFFFF;
+    border: 2px solid #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.apple-icon {
+    position: absolute;
+    width: 41.73px;
+    height: 46px;
+    left: 49.13px;
+    top: 587px;
+    background: url(image.png);
+}
+
+.apple-text {
+    position: absolute;
+    width: 254px;
+    height: 64px;
+    left: 70px;
+    top: 581px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+}
+
+.facebook-container {
+    position: absolute;
+    width: 362.48px;
+    height: 66px;
+    left: 35.52px;
+    top: 468px;
+}
+
+.facebook-box {
+    position: absolute;
+    width: 362px;
+    height: 66px;
+    left: 36px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 2px solid #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.facebook-icon {
+    position: absolute;
+    width: 68.95px;
+    height: 52px;
+    left: 35.52px;
+    top: 476px;
+    background: url(vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930476);
+}
+
+.facebook-text {
+    position: absolute;
+    width: 298px;
+    height: 28px;
+    left: 71px;
+    top: 487px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+}
+
+.google-container {
+    position: absolute;
+    width: 378px;
+    height: 66px;
+    left: 20px;
+    top: 358px;
+}
+
+.google-box {
+    position: absolute;
+    width: 362px;
+    height: 66px;
+    left: 36px;
+    top: 358px;
+    background: #FFFFFF;
+    border: 2px solid #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.google-icon {
+    position: absolute;
+    width: 41px;
+    height: 45px;
+    left: 51px;
+    top: 368px;
+    background: url(google-icon-2048x2048-czn3g8x8);
+}
+
+.google-text {
+    position: absolute;
+    width: 324px;
+    height: 28px;
+    left: 20px;
+    top: 376px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+}
+
+.back-container {
+    position: absolute;
+    width: 235px;
+    height: 55px;
+    left: 98px;
+    top: 799px;
+}
+
+.back-box {
+    position: absolute;
+    width: 235px;
+    height: 55px;
+    left: 98px;
+    top: 799px;
+    background: #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.back-text {
+    position: absolute;
+    width: 229.07px;
+    height: 29.46px;
+    left: 101.93px;
+    top: 809.88px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.frame-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 222px;
+    top: 222px;
+}
