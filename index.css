@@ -44,18 +44,6 @@ video{
     animation: mover 1s forwards;
 }
 
-
-@keyframes mover {
-    0%{
-        opacity: 0;
-        transform: translateY(-300px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
 .welcome {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;

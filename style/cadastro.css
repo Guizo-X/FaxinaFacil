@@ -1,8 +1,25 @@
-.container {
-    position: relative;
-    width: 430px;
-    height: 932px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
     background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/video_de_fundo.gif);
+    background-size: cover;
+}
+
+.container {
+    width: 415px;
+    height: 930px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    position: relative;
 }
 
 .header-title {
@@ -43,6 +60,20 @@
     top: 358px;
 }
 
+.option-container {
+    position: relative;
+    width: 362px;
+    height: 66px;
+    background: #FFFFFF;
+    border: 2px solid #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
 .email-container {
     position: absolute;
     width: 362px;
@@ -80,15 +111,6 @@
     color: #000000;
 }
 
-.email-icon {
-    position: absolute;
-    width: 45.36px;
-    height: 50px;
-    left: 49.13px;
-    top: 697px;
-    background: #FFFFFF;
-}
-
 .vector {
     position: absolute;
     left: 8.33%;
@@ -116,15 +138,6 @@
     border: 2px solid #0743A2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-}
-
-.apple-icon {
-    position: absolute;
-    width: 41.73px;
-    height: 46px;
-    left: 49.13px;
-    top: 587px;
-    background: url(image.png);
 }
 
 .apple-text {
@@ -164,15 +177,6 @@
     border-radius: 12px;
 }
 
-.facebook-icon {
-    position: absolute;
-    width: 68.95px;
-    height: 52px;
-    left: 35.52px;
-    top: 476px;
-    background: url(vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930476);
-}
-
 .facebook-text {
     position: absolute;
     width: 298px;
@@ -208,15 +212,6 @@
     border: 2px solid #0743A2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-}
-
-.google-icon {
-    position: absolute;
-    width: 41px;
-    height: 45px;
-    left: 51px;
-    top: 368px;
-    background: url(google-icon-2048x2048-czn3g8x8);
 }
 
 .google-text {
@@ -276,4 +271,39 @@
     height: 100px;
     left: 222px;
     top: 222px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.voltar-container {
+    position: absolute;
+    width: 235px;
+    height: 55px;
+    left: calc(50% - 117.5px);
+    top: 799px;
+    background: #0743A2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
 }
